@@ -1,12 +1,12 @@
 # PoC WordPress Vulnerability Scanner
 
-![GitHub release](https://img.shields.io/github/v/release/your-username/poc-wordpress-vulnerability-scanner)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/poc-wordpress-vulnerability-scanner/ci.yml?branch=main)
-![GitHub issues](https://img.shields.io/github/issues/your-username/poc-wordpress-vulnerability-scanner)
-![GitHub stars](https://img.shields.io/github/stars/your-username/poc-wordpress-vulnerability-scanner)
-![GitHub forks](https://img.shields.io/github/forks/your-username/poc-wordpress-vulnerability-scanner)
-![GitHub license](https://img.shields.io/github/license/your-username/poc-wordpress-vulnerability-scanner)
-![Twitter](https://img.shields.io/twitter/follow/your-username?style=social)
+![GitHub release](https://img.shields.io/github/v/release/kavalkala/poc-wordpress-vulnerability-scanner)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/kavalkala/poc-wordpress-vulnerability-scanner/ci.yml?branch=main)
+![GitHub issues](https://img.shields.io/github/issues/kavalkala/poc-wordpress-vulnerability-scanner)
+![GitHub stars](https://img.shields.io/github/stars/kavalkala/poc-wordpress-vulnerability-scanner)
+![GitHub forks](https://img.shields.io/github/forks/kavalkala/poc-wordpress-vulnerability-scanner)
+![GitHub license](https://img.shields.io/github/license/kavalkala/poc-wordpress-vulnerability-scanner)
+![Twitter](https://img.shields.io/twitter/follow/kavalkala?style=social)
 
 ## Description
 
