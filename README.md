@@ -1,40 +1,23 @@
-# PoC WordPress Vulnerability Scanner
+# Description
 
-![GitHub release](https://img.shields.io/github/v/release/kavalkala/poc-wordpress-vulnerability-scanner)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/kavalkala/poc-wordpress-vulnerability-scanner/ci.yml?branch=main)
-![GitHub issues](https://img.shields.io/github/issues/kavalkala/poc-wordpress-vulnerability-scanner)
-![GitHub stars](https://img.shields.io/github/stars/kavalkala/poc-wordpress-vulnerability-scanner)
-![GitHub forks](https://img.shields.io/github/forks/kavalkala/poc-wordpress-vulnerability-scanner)
-![GitHub license](https://img.shields.io/github/license/kavalkala/poc-wordpress-vulnerability-scanner)
-![Twitter](https://img.shields.io/twitter/follow/kavalkala?style=social)
-
-## Description
-
-This tool scans WordPress plugins for PHP CodeSniffer (PHPCS) errors and warnings according to WordPress Coding Standards. It outputs PHP files with detected errors or warnings for further analysis, excluding syntax-related exceptions.
+The WordPress Plugin Scraper is a Golang tool designed to scrape and download plugins from WordPress's own API.
 
 ## Features
 
-- Scans for PHP CodeSniffer errors and warnings
-- WordPress Coding Standards compliant
-- Outputs detected issues for further analysis
-- Excludes syntax-related exceptions
+- Scrapes WordPress plugins
+- Downloads WordPress plugins
 
 ## Usage
 
 1. **Clone this repository**:
     ```sh
-    git clone https://github.com/your-username/poc-wordpress-vulnerability-scanner.git
-    cd poc-wordpress-vulnerability-scanner
+    git clone git@github.com:TABELKOOD/wordpress-plugin-scraper.git
+    cd wordpress-plugin-scraper
     ```
 
-2. **Install dependencies**:
+2. **Run the scraper**:
     ```sh
-    composer install
-    ```
-
-3. **Run the scanner**:
-    ```sh
-    php scan.php
+    go run main.go
     ```
 
 ## Contributing
