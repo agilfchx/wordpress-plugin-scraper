@@ -17,7 +17,6 @@ const (
 	requestRetry = 3
 )
 
-// Plugin structure to hold plugin details from the API
 type Plugin struct {
 	Slug          string `json:"slug"`
 	Version       string `json:"version"`
@@ -25,12 +24,10 @@ type Plugin struct {
 	ActiveInstalls int   `json:"active_installs"`
 }
 
-// PluginList structure to hold the list of plugins fetched from the API
 type PluginList struct {
 	Plugins []Plugin `json:"plugins"`
 }
 
-// fetchPluginList fetches the list of plugins from the WordPress API
 func fetchPluginList(pageNumber int) (PluginList, error) {
 	var pluginList PluginList
 
@@ -49,7 +46,6 @@ func fetchPluginList(pageNumber int) (PluginList, error) {
 	return pluginList, err
 }
 
-// downloadPlugin handles the downloading of the plugin file
 func downloadPlugin(plugin Plugin, wg *sync.WaitGroup) {
 	defer wg.Done()
 
@@ -83,7 +79,6 @@ func main() {
 	var wg sync.WaitGroup
 	jobs := make(chan Plugin, maxWorkers)
 
-	// Worker pool to limit the concurrent downloads
 	for i := 0; i < maxWorkers; i++ {
 		go func() {
 			for plugin := range jobs {
