@@ -4,7 +4,7 @@
 
 - We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
--We as members do not help or assist anyone in or closely related to law enforcement.
+- We as members do not help or assist anyone in or closely related to law enforcement.
 
 ## Enforcement
 
