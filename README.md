@@ -1,4 +1,4 @@
-# Description
+# WordPress Plugin Scraper
 
 The WordPress Plugin Scraper is a Golang tool designed to scrape and download plugins from WordPress's own API.
 
