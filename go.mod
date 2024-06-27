@@ -1,3 +1,3 @@
-module github.com/TABELKOOD/wordpress-plugin-scraper/m/v2
+module github.com/TABELKOOD/wordpress-plugin-scraper
 
-go 1.23
+go 1.21
